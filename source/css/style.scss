@@ -490,9 +490,7 @@ blockquote:before,.stressed-quote:before {
 strong,b,em {
     font-weight: bold;
 }
-pre {
-    margin:2em 0;
-}
+
 .hidden1 {
     display: none;
 }
@@ -1666,7 +1664,9 @@ figure.highlight,
 }
 #toc {
   line-height: 1em;
-  float: right;
+  /*float: right;*/
+  margin-top: 6%;
+  margin-left: 2px;
   .toc {
     padding: 0;
     margin: 0.5em;
@@ -1853,4 +1853,14 @@ em.search-keyword {
     background-color: #f5f5f5;
     display: block;
     overflow-y: scroll
+}
+/*
+pre{
+    word-break: break-all;
+    word-wrap: break-word;
+  }
+*/
+
+pre {
+    margin:2em 0;
 }
